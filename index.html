@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentrax Airdrop Claim</title>
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@solana/wallet-adapter-phantom"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="claim-box">
+            <h1>Decentrax Airdrop</h1>
+            <p class="description">Claim 1000 Decentrax tokens by sending 0.1 SOL</p>
+            <div class="wallet-section">
+                <button id="connectWallet" class="connect-button">Connect Wallet</button>
+                <p id="walletAddress" class="wallet-address"></p>
+            </div>
+            <div class="claim-section">
+                <button id="claimButton" class="claim-button" disabled>Claim Airdrop</button>
+            </div>
+            <div class="info-section">
+                <p>Fee: 0.1 SOL</p>
+                <p>Reward: 1000 Decentrax</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
